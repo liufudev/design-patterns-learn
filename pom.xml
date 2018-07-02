@@ -11,6 +11,7 @@
     <modules>
         <module>strategy</module>
         <module>observer</module>
+        <module>template</module>
     </modules>
     <properties>
         <guava.version>25.1-jre</guava.version>

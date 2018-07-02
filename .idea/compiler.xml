@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="observer" />
         <module name="strategy" />
+        <module name="template" />
       </profile>
     </annotationProcessing>
   </component>
