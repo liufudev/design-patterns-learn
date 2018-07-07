@@ -13,6 +13,7 @@
         <module>observer</module>
         <module>template</module>
         <module>proxy</module>
+        <module>prototype</module>
     </modules>
     <properties>
         <guava.version>25.1-jre</guava.version>
