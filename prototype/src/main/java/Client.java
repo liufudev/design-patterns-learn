@@ -1,9 +1,13 @@
 public class Client {
-    public static void main(String[] args) {
-        ConcretePrototype cp = new ConcretePrototype();
-        for (int i = 0; i < 10; i++) {
-            ConcretePrototype clonecp = (ConcretePrototype) cp.clone();
-            clonecp.show();
-        }
+    private Prototype prototype;
+
+    public Client(Prototype prototype) {
+        this.prototype = prototype;
+    }
+
+    public void operation() {
+        //需要创建原型接口的对象
+        Prototype copyPrototype = prototype.clone();
+        copyPrototype.show();
     }
 }
