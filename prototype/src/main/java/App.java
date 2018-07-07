@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) {
-        Client client = new Client(new ConcretePrototype1());
+        ConcretePrototype1 prototype1 = new ConcretePrototype1();
+        prototype1.setName("lf");
+        Client client = new Client(prototype1);
         client.operation();
     }
 }
