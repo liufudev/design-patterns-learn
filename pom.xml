@@ -17,6 +17,18 @@
         <module>mediator</module>
         <module>decorator</module>
     </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <properties>
         <guava.version>25.1-jre</guava.version>
         <slf4j.version>1.7.21</slf4j.version>
