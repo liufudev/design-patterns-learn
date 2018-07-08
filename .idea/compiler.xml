@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="decorator" />
+        <module name="mediator" />
         <module name="observer" />
         <module name="prototype" />
         <module name="proxy" />
@@ -13,5 +15,8 @@
         <module name="template" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="factory" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -15,6 +15,7 @@
         <module>proxy</module>
         <module>prototype</module>
         <module>mediator</module>
+        <module>decorator</module>
     </modules>
     <properties>
         <guava.version>25.1-jre</guava.version>
