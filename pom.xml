@@ -16,6 +16,7 @@
         <module>prototype</module>
         <module>mediator</module>
         <module>decorator</module>
+        <module>singleton</module>
     </modules>
     <build>
         <plugins>
