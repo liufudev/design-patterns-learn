@@ -1,3 +1,5 @@
-package head.first;public interface Cheese {
+package head.first;
+
+public interface Cheese {
 	public String toString();
 }

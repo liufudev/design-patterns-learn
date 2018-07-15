@@ -1,3 +1,5 @@
-package head.first;public interface Pepperoni {
+package head.first;
+
+public interface Pepperoni {
 	public String toString();
 }

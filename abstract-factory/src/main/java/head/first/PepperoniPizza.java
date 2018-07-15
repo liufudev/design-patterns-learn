@@ -1,4 +1,6 @@
-package head.first;public class PepperoniPizza extends Pizza {
+package head.first;
+
+public class PepperoniPizza extends Pizza {
 	PizzaIngredientFactory ingredientFactory;
 
 	public PepperoniPizza(PizzaIngredientFactory ingredientFactory) {

@@ -1,3 +1,5 @@
-package head.first;public interface Dough {
+package head.first;
+
+public interface Dough {
 	public String toString();
 }

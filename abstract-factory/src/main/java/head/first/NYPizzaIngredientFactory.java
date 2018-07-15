@@ -1,4 +1,6 @@
-package head.first;public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+package head.first;
+
+public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
  
 	public Dough createDough() {
 		return new ThinCrustDough();

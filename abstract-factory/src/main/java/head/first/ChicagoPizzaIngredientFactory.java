@@ -1,4 +1,6 @@
-package head.first;public class ChicagoPizzaIngredientFactory
+package head.first;
+
+public class ChicagoPizzaIngredientFactory
 	implements PizzaIngredientFactory 
 {
 

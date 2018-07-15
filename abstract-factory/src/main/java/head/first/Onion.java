@@ -1,4 +1,6 @@
-package head.first;public class Onion implements Veggies {
+package head.first;
+
+public class Onion implements Veggies {
 
 	public String toString() {
 		return "Onion";
