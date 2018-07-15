@@ -17,6 +17,8 @@
         <module>mediator</module>
         <module>decorator</module>
         <module>singleton</module>
+        <module>factory-method</module>
+        <module>abstract-factory</module>
     </modules>
     <build>
         <plugins>
