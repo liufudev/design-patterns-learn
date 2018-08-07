@@ -21,6 +21,7 @@
         <module>abstract-factory</module>
         <module>command</module>
         <module>adapter</module>
+        <module>bridge</module>
     </modules>
     <build>
         <plugins>
